@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["IR", "PP", "PP"],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "P": { "tag": "minecraft:planks" }
+  },
+  "result": { "id": "pokemoncraft:pokemon_crafting_table" }
+}

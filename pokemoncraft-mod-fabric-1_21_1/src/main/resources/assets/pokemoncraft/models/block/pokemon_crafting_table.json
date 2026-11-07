@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "pokemoncraft:block/pokemon_table_front",
+    "down": "pokemoncraft:block/pokemon_table_bottom",
+    "up": "pokemoncraft:block/pokemon_table_top",
+    "north": "pokemoncraft:block/pokemon_table_front",
+    "south": "pokemoncraft:block/pokemon_table_front",
+    "east": "pokemoncraft:block/pokemon_table_side",
+    "west": "pokemoncraft:block/pokemon_table_side"
+  }
+}

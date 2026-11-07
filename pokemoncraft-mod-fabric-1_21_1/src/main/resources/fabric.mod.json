@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pokemoncraft",
+  "version": "${version}",
+  "name": "Pokemon Crafting Table",
+  "description": "Adds the Pokemon Crafting Table, a smithing-table style workstation with its own data-driven recipes. Works alongside Cobblemon.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.pokemoncraft.PokemonCraft"],
+    "client": ["com.pokemoncraft.client.PokemonCraftClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "cobblemon": "*"
+  }
+}
